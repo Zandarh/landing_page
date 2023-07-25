@@ -18,18 +18,22 @@ body{
 ul{
     list-style-type: none;
 }
-.left {
+.left a{
     color: #f9faf8;
     font-size: 24px;
+    cursor: pointer;
 }
 .right{
     display: flex;
     gap: 30px;
 }
+.right a, .left a{
+    text-decoration: none;
+}
 .right a{
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration: none;
+    
 }
 .hero_container{
     background-color: #1f2937;
@@ -52,9 +56,6 @@ ul{
     color: #e5e7eb;
     margin: 10px 0px;
 }
-.hero_right{
-
-}
 .hero_right img{
     width: 350px;
 }
@@ -74,7 +75,7 @@ ul{
     color: #1f2937;
     font-size: 40px;
     text-align: center;
-    margin: 45px 0px;
+    margin: 35px 0px;
 }
 .services_container{
     display: flex;
@@ -92,6 +93,7 @@ ul{
 }
 .num h2{
     text-align: center;
+    color: #1f2937;
 }
 .num > p{
     text-align: center;
@@ -115,6 +117,7 @@ ul{
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
+    margin-top: 65px;
 }
 .quote{
     width: 60%;
@@ -130,4 +133,16 @@ ul{
 }
 .quote h3{
     align-self: self-end;
+}
+.opt_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the_form{
+    width: 70px;
+    background-color: #3882f6;
+}
+.the_form h3{
+    
 }
